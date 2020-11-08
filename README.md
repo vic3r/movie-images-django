@@ -5,4 +5,4 @@ Service which serves images and caches them in a storage
 - Install django
 
 ## Run
-- run `python manage.py runserver`
+- run `python manage.py runserver <port>`
