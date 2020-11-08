@@ -1,0 +1,15 @@
+# virtual environment
+venv/*
+*.env
+*.env.*
+
+# cache dirs
+pycache/*
+*/__pycache__
+__pycache__
+
+# storage files
+db.*
+
+# vscode files
+.vscode
