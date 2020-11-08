@@ -1,2 +1,8 @@
 # movie-images-django
-Service which server images and caches them in a storage
+Service which serves images and caches them in a storage
+
+## Installation
+- Install django
+
+## Run
+- run `python manage.py runserver`
