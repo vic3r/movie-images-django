@@ -3,10 +3,10 @@ from rest_framework.views import APIView
 from rest_framework import status
 from rest_framework.response import Response
 from movieimages import settings
+from http import HTTPStatus
 from requests.exceptions import HTTPError
 import redis
 import requests
-from http import HTTPStatus
 
 # Connect to our Redis instance
 redis_instance = redis.StrictRedis(host=settings.REDIS_HOST,
