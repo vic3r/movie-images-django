@@ -124,3 +124,5 @@ STATIC_URL = '/static/'
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
 API_TOKEN = ''
+API_URL = ''
+TIME_OUT = 0
